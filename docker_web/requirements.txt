@@ -1,4 +1,0 @@
-Django>=2.0,<3.0
-djangorestframework==3.9.4
-markdown
-django-filter
