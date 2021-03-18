@@ -81,7 +81,7 @@ class predict(APIView):
             seriesUID = str(r[0]['0020000E']['Value'][0])
             objectUID = str(r[0]['00080018']['Value'][0])
         
-            url="https://orthanc.dicom.org.tw/wado/?requestType=WADO&studyUID="+studyUID+'&seriesUID='+seriesUID+"&objectUID="+objectUID+"&contentType=application%2Fdicom"
+            url="https://test.com.tw/wado/?requestType=WADO&studyUID="+studyUID+'&seriesUID='+seriesUID+"&objectUID="+objectUID+"&contentType=application%2Fdicom"
             session_requests = requests.session()
             #print(url)
             #print("\\n")
